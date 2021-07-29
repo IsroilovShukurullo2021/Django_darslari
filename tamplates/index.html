@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sahifa</title>
+</head>
+<body bgcolor="yellow">
+{% if ism %}
+<h1>Salom{{ism}}</h1>
+{% else %}
+<h1>Salom mehmon</h1>
+{% endif %}
+
+{% for i in ismlar %}
+<p>{{i}}</p>
+{% endfor %}
+
+
+</body>
+</html>
